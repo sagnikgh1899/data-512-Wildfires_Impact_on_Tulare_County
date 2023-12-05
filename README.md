@@ -264,9 +264,10 @@ To reproduce this analysis, follow these steps:
 5. Next, run Analysis_Prediction_And_Visualization.ipynb to get the smoke estimate, build a prediction model and generate two of the visualizations.
 6. Then, run Get_AQI_Per_Year.ipynb to generate the "final_aqi_each_year.csv" dataset.
 7. Next, run the Compare_Smoke_Estimate_With_AQI.ipynb file to compare smoke estimate with obtained AQI and generate the third plot which along with the previous 2 plots will help answer the first research question.
-8. For extended analysis, run the Extension_Plan.ipynb file to get the required datasets for analysis.
-9. Then, run the Extension_Plan_Analysis.ipynb file to look at the statistical analysis and visualizations based on which we answer the remaining 4 research questions.
-8. Analyze the results.
+8. For extended analysis, first download the two additional datasets from [this website](https://ghdx.healthdata.org/record/ihme-data/united-states-chronic-respiratory-disease-mortality-rates-county-1980-2014) and [this website](https://data.chhs.ca.gov/dataset/asthma-hospitalization-rates-by-county).
+9. Run the Extension_Plan.ipynb file to get the required chunks of the bigger datasets for analysis.
+10. Then, run the Extension_Plan_Analysis.ipynb file to look at the statistical analysis and visualizations based on which we answer the remaining 4 research questions.
+11. Analyze the results.
 
 *Feel free to use, modify, or contribute to this project while adhering to the MIT License.*
 

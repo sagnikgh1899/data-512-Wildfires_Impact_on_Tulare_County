@@ -25,7 +25,7 @@ The escalating frequency of summer wildfires in the western US, particularly in 
 
 
 
-## Repository tree
+## Repository Tree
 ```
 .
 ├── data/
@@ -324,7 +324,7 @@ The following are the input data descriptions and their sources:
 
 
 
-## Reproducing the analysis
+## Reproducing the Analysis
 To reproduce this analysis, follow these steps:
 1. Clone this repository to your local machine.
 2. Ensure you have Python installed with the required libraries.
@@ -341,7 +341,7 @@ To reproduce this analysis, follow these steps:
 *Feel free to use, modify, or contribute to this project while adhering to the MIT License.*
 
 
-## Best practices for documentation
+## Best Documentation Practices
 - PEP 8 – Style Guide for Python Code ([Reference link](https://peps.python.org/pep-0008/))
 - Use of relative path addresses to help in reproducibility
 - Use of intuitive variable and function names to ease in understanding
@@ -349,4 +349,4 @@ To reproduce this analysis, follow these steps:
 - Description of all data files present in the repository mentioned
 
 ## Author
-[Sagnik Ghosal](https://github.com/sagnikgh1899) 
+[Sagnik Ghosal](https://github.com/sagnikgh1899)

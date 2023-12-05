@@ -89,6 +89,9 @@ The escalating frequency of summer wildfires in the western US, particularly in 
  - matplotlib
  - statsmodels
  - requests
+ - scipy
+ - numpy
+ - pandas
 
 
 

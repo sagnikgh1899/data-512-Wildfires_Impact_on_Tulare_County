@@ -304,6 +304,9 @@ The following are the input data descriptions and their sources:
 #### Age Standardized Mortality Rate From Asthma For Both Sexes With Notable Events in Tulare County
 ![Age Standardized Mortality Rate From Asthma For Both Sexes With Notable Events in Tulare County](images/Age_Standardized_Mortality_Rate_From_Asthma_For_Both_Sexes_With_Notable_Events_in_Tulare_County.png)
 
+#### Mean Asthma Mortality by Sex
+![Mean Asthma Mortality by Sex](images/Mean_Asthma_Mortality_by_Sex.png)
+
 
 ### 5. How does the prevalence of smoke fires in Tulare County connect with rates of asthma-related hospitalizations across different age groups over time?
 #### Year vs Smoke Estimate and Year vs Number of Hospitalizations

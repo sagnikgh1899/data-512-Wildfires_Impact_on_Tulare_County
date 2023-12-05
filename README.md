@@ -288,8 +288,10 @@ The following are the input data descriptions and their sources:
 ### 3. How does fire smoke relate to the age-standardized mortality rate for respiratory diseases in Tulare County across different years?
 #### Asthma Correlation and Regression Analysis
 ![Asthma](images/asthma.png)
+![Relationship Between Fire Smoke Estimate and Age Standardized Mortality Rate From Asthma](images/Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Mortality_Rate_From_Asthma.png)
 #### COPD Correlation and Regression Analysis
 ![COPD](images/copd.png)
+![Relationship Between Fire Smoke Estimate and Age Standardized Mortality Rate From COPD(images/Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Mortality_Rate_From_COPD.png)
 
 ### 4. Is there a noticeable difference in respiratory disease mortality rates between sexes due to variations in exposure to fire smoke in Tulare County?
 #### Male With Asthma

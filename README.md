@@ -193,6 +193,12 @@ The following are the input data descriptions and their sources:
 ## Snapshot of Analysis Output
 
 #### 1. What are the estimated smoke impacts on Tulare city for the last 60 years?
+##### Fire Distribution by Distance from Tulare
+![Fire Distribution by Distance from Tulare](images/Fire_Distribution_by_Distance_from_Tulare.png) 
+##### Annual Acres Burned in Proximity to Tulare
+![Annual Acres Burned in Proximity to Tulare](images/Annual_Acres_Burned_in_Proximity_to_Tulare.png)
+##### Fire Smoke Estimate vs AQI in Tulare
+![Fire Smoke Estimate vs AQI in Tulare](images/Fire_Smoke_Estimate_vs_AQI_in_Tulare.png)
 
 #### 2. To what extent do certain respiratory diseases linked to smoke-related pollution (e.g., Chronic respiratory diseases, Chronic obstructive pulmonary disease, Asthma) exhibit higher mortality rates compared to diseases not directly related to smoke-related pollution (e.g., Pneumoconiosis, Coal workers pneumoconiosis) in Tulare County from 1980 to 2014?
 ![Smoke vs Non-smoke Related Disease Comparison Plot](images/smoke_vs_non_smoke_related_disease_comparison_plot.png)

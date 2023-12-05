@@ -31,23 +31,42 @@ The escalating frequency of summer wildfires in the western US, particularly in 
 ├── data/
 │   └── Wildland_Fire_Polygon_Metadata.xml
 ├── images/
+│   ├── Age_Standardized_Mortality_Rate_From_Asthma_For_Both_Sexes_With_Notable_Events_in_Tulare_County.png
 │   ├── Annual_Acres_Burned_in_Proximity_to_Tulare.png
 │   ├── Fire_Distribution_by_Distance_from_Tulare.png
-│   └── Fire_Smoke_Estimate_vs_AQI_in_Tulare.png
+│   ├── Fire_Smoke_Estimate_vs_AQI_in_Tulare.png
+│   ├── Mean_Asthma_Mortality_by_Sex.png
+│   ├── Mean_Number_of_Hospitalizations_For_Asthma_across_Specific_Age_Groups.png
+│   ├── Relationship_between_Fire_Smoke_Estimate_Age_Standardized_Mortality_Rate_From_Asthma_Male.png
+│   ├── Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Mortality_Rate_From_Asthma.png
+│   ├── Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Mortality_Rate_From_COPD.png
+│   ├── Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Rate_From_Asthma_Female.png
+│   ├── Year_vs_Smoke_Estimate_and_Year_vs_Number_of_Hospitalizations.png
+│   └── smoke_vs_non_smoke_related_disease_comparison_plot.png
 ├── intermediate data/
 │   ├── annual_smoke_estimate.csv
 │   ├── final_aqi_each_year.csv
 │   ├── gaseous_aqi_data_processed.csv
 │   ├── gaseous_data.json
 │   ├── particulate_aqi_data_processed.csv
-│   └── particulate_data.json
+│   ├── particulate_data.json
+│   ├── resp_disease_both_asthma.csv
+│   ├── resp_disease_both_copd.csv
+│   ├── resp_disease_female_asthma.csv
+│   ├── resp_disease_female_copd.csv
+│   ├── resp_disease_male_asthma.csv
+│   └── resp_disease_male_copd.csv
 ├── reports/
-│   ├── Visualization Descriptions and Reflection.docx
+│   ├── Data 512 Project Part 2 - Extension Plan.pdf
+│   ├── Final Report.pdf
+│   ├── Sagnik Ghosal_PechaKucha Presentation.pptx
 │   └── Visualization Descriptions and Reflection.pdf
 ├── src/
 │   ├── Analysis_Prediction_And_Visualization.ipynb
 │   ├── Compare_Smoke_Estimate_With_AQI.ipynb
 │   ├── Data_Acquisition.ipynb
+│   ├── Extension Plan Analysis.ipynb
+│   ├── Extension Plan.ipynb
 │   └── Get_AQI_Per_Year.ipynb
 ├── LICENSE
 └── README.md

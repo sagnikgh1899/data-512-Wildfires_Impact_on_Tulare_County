@@ -177,13 +177,72 @@ The following are the input data descriptions and their sources:
 
 
 ### Intermediate Data Files
-1. resp_disease_both_copd.csv
-2. resp_disease_both_asthma.csv
-3. resp_disease_female_copd.csv
-4. resp_disease_male_asthma.csv
-5. resp_disease_female_asthma.csv
-6. resp_disease_male_copd.csv
-7. annual_smoke_estimate.csv
+1. **resp_disease_both_copd.csv** - This dataset contains records of mortality attributed to Chronic Obstructive Pulmonary Disease (COPD). 
+
+2. **resp_disease_both_asthma.csv** - This dataset contains records of mortality attributed to Asthma.
+
+3. **resp_disease_female_copd.csv** - This dataset contains records of mortality attributed to Chronic Obstructive Pulmonary Disease (COPD) for females only. 
+
+4. **resp_disease_male_asthma.csv** - This dataset contains records of mortality attributed to Asthma for males only. 
+
+5. **resp_disease_female_asthma.csv** - This dataset contains records of mortality attributed to Asthma for females only. 
+
+6. **resp_disease_male_copd.csv** - This dataset contains records of mortality attributed to Chronic Obstructive Pulmonary Disease (COPD) for males only.
+
+**The intermediate files numbered 1-6 have the same schema which is outlined in the following table.**
+| NAME | DTYPE | DESCRIPTION |
+| ----------- | ----------- | ----------- |
+| measure_name | String | Type of measure ("Deaths" in this case) |
+| location_id | Integer | Location id for the particular entry (804 in this case) |
+| location_name | String | Location name for the particular entry ("Tulare" in this case) |
+| FIPS | Integer | FIPS code for the particular entry (6107 in this case) |
+| cause_id | Integer | Cause id of the particular measure |
+| cause_name | String | Cause name of the particular measure |
+| sex_id | Integer | Denotes male (1) or female (2) or both (3) |
+| sex | String | Denotes 'Male' or 'Female' or 'Both' |
+| age_id | Integer | Age of the particular entry |
+| age_name | String | Age name of the particular entry ("Age-standardized" in this case) |
+| year_id | Integer | Year of the particular entry |
+| metric | String | Metric used for the particular entry |
+| mx | Float | 	Posterior mean estimate |
+
+7. **annual_smoke_estimate.csv** - This dataset contains calculated fire smoke estimates. It comprises the following columns:
+
+| NAME | DTYPE |
+| ----------- | ----------- |
+| Year | Integer | 
+| Smoke_estimate | Float |
+| Mean_GIS_Acres | Float |
+| Mean_Distance | Float |
+
+8. **final_aqi_each_year.csv** - This dataset contains the Annual Air Quality Index (AQI) data, organized by year. The dataset includes the following columns:
+
+| NAME | DTYPE |
+| ----------- | ----------- |
+| Year | Integer |
+| AQI | Float |
+
+9. **gaseous_aqi_data_processed.csv** - This dataset contains Air Quality Index (AQI) data specifically focused on gaseous pollutants. The dataset encompasses the following columns:
+
+| NAME | DTYPE |
+| ----------- | ----------- |
+| Date | Datetime |
+| AQI | Integer |
+| Sample_Duration | String |
+| Pollutant_Type | Integer |
+
+10. **particulate_aqi_data_processed.csv** - This dataset contains Air Quality Index (AQI) data specifically focused on particulate pollutants. The dataset encompasses the following columns:
+
+| NAME | DTYPE |
+| ----------- | ----------- |
+| Date | Datetime |
+| AQI | Integer |
+| Sample_Duration | String |
+| Pollutant_Type | Integer |
+
+11. **gaseous_data.json** - This dataset contains Air Quality Index (AQI) data specifically focused on the same gaseous pollutants but in json format.
+
+12. **particulate_data.json** - This dataset contains Air Quality Index (AQI) data specifically focused on the same particulate pollutants but in json format.
 
 
 ## Data & Notebook Licenses
@@ -194,7 +253,7 @@ The following are the input data descriptions and their sources:
 3. **Asthma Hospitalization Rates For California Counties from 2015 to 2020** - Data available for download through the CalHHS Open Data Portal is open for utilization, sharing, modification, or expansion by non-commercial users, aligning with the 
 [CalHHS Terms of Use](https://data.chhs.ca.gov/pages/terms).
 
-### Sample Notebook License
+### Notebook Licenses
 1. The below sample codes were referenced for the following tasks and have been provided under the [Creative Commons](https://creativecommons.org/) [CC-BY license](https://creativecommons.org/licenses/by/4.0/):
     - [Sample notebook for Geodetic Distance Computation](https://drive.google.com/file/d/1qNI6hji8CvDeBsnLDAhJXvaqf2gcg8UV/view?usp=sharing)
     - [Sample code for accessing the US EPA Air Quality System API](https://drive.google.com/file/d/1bxl9qrb_52RocKNGfbZ5znHVqFDMkUzf/view?usp=sharing)
@@ -210,6 +269,7 @@ The following are the input data descriptions and their sources:
 - Fires have been filtered based on their distance from the city (maximum 1250 miles permissible) and the fire year (1963 to 2023 only)
 - Since the fire date is quite messy, all fires for an year have been considered instead of just focusing on the fires between May 1st till October 31st.
 - There are 35 instances of curveRings out of the 135061 instances, so we can choose to ignore them without much impact on the overall result.
+- Based on the statistical outcomes and visual insights, we pursued the analysis solely focusing on Asthma, abandoning COPD due to its lack of meaningful results.
 
 
 ## Snapshot of Analysis Output

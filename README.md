@@ -292,14 +292,14 @@ The following are the input data descriptions and their sources:
 
 #### 4. Is there a noticeable difference in respiratory disease mortality rates between sexes due to variations in exposure to fire smoke in Tulare County?
 ##### Male With Asthma
-![Male With Asthma](male_with_asthma.png)
+![Male With Asthma](images/male_with_asthma.png)
 
-![Relationship between Fire Smoke Estimate and Age-Standardized Mortality Rate From Asthma (Male)](Relationship_between_Fire_Smoke_Estimate_Age_Standardized_Mortality_Rate_From_Asthma_Male.png)
+![Relationship between Fire Smoke Estimate and Age-Standardized Mortality Rate From Asthma (Male)](images/Relationship_between_Fire_Smoke_Estimate_Age_Standardized_Mortality_Rate_From_Asthma_Male.png)
 
 ##### Female With Asthma
-![Female With Asthma](female_with_asthma.png)
+![Female With Asthma](images/female_with_asthma.png)
 
-![Relationship between Fire Smoke Estimate and Age-Standardized Mortality Rate From Asthma (Female)](Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Rate_From_Asthma_Female.png)
+![Relationship between Fire Smoke Estimate and Age-Standardized Mortality Rate From Asthma (Female)](images/Relationship_between_Fire_Smoke_Estimate_and_Age_Standardized_Rate_From_Asthma_Female.png)
 
 ##### Age Standardized Mortality Rate From Asthma For Both Sexes With Notable Events in Tulare County
 ![Age Standardized Mortality Rate From Asthma For Both Sexes With Notable Events in Tulare County](images/Age_Standardized_Mortality_Rate_From_Asthma_For_Both_Sexes_With_Notable_Events_in_Tulare_County.png)

@@ -5,7 +5,7 @@
 ## Goal
 This project aims to examine the impact of wildfire smoke on Tulare County during a specific timeframe and focusing on several research questions pivotal for the county's social and economic well-being. These questions include:
 1. What are the estimated smoke impacts on Tulare city for the last 60 years?
-2. To what extent do certain respiratory diseases linked to smoke-related pollution (e.g., Chronic respiratory diseases, Chronic obstructive pulmonary disease, Asthma) exhibit higher mortality rates compared to diseases not directly related to smoke-related pollution (e.g., Pneumoconiosis, Coal workers pneumoconiosis) in Tulare County from 1980 to 2014?
+2. To what extent do certain respiratory diseases linked to smoke-related pollution (e.g., Chronic respiratory diseases, Chronic obstructive pulmonary disease, Asthma) exhibit higher mortality rates compared to diseases not directly related to smoke-related pollution (e.g., Pneumoconiosis, Coal workers pneumoconiosis) in Tulare County?
 3. How does fire smoke relate to the age-standardized mortality rate for respiratory diseases in Tulare County across different years?
 3. Is there a noticeable difference in respiratory disease mortality rates between sexes due to variations in exposure to fire smoke in Tulare County?
 4. How does the prevalence of smoke fires in Tulare County connect with rates of asthma-related hospitalizations across different age groups over time?
@@ -281,8 +281,10 @@ The following are the input data descriptions and their sources:
 ![Annual Acres Burned in Proximity to Tulare](images/Annual_Acres_Burned_in_Proximity_to_Tulare.png)
 #### Fire Smoke Estimate vs AQI in Tulare
 ![Fire Smoke Estimate vs AQI in Tulare](images/Fire_Smoke_Estimate_vs_AQI_in_Tulare.png)
+#### Fire smoke estimate forecast for Tulare County for the next 25 years
+![Smoke Forecast](images/Smoke_forecast.png)
 
-### 2. To what extent do certain respiratory diseases linked to smoke-related pollution (e.g., Chronic respiratory diseases, Chronic obstructive pulmonary disease, Asthma) exhibit higher mortality rates compared to diseases not directly related to smoke-related pollution (e.g., Pneumoconiosis, Coal workers pneumoconiosis, Silicosis, Asbestosis) in Tulare County from 1980 to 2014?
+### 2. To what extent do certain respiratory diseases linked to smoke-related pollution (e.g., Chronic respiratory diseases, Chronic obstructive pulmonary disease, Asthma) exhibit higher mortality rates compared to diseases not directly related to smoke-related pollution (e.g., Pneumoconiosis, Coal workers pneumoconiosis, Silicosis, Asbestosis) in Tulare County?
 ![Smoke vs Non-smoke Related Disease Comparison Plot](images/smoke_vs_non_smoke_related_disease_comparison_plot.png)
 
 ### 3. How does fire smoke relate to the age-standardized mortality rate for respiratory diseases in Tulare County across different years?

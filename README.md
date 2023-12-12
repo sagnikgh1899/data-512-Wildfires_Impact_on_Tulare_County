@@ -58,7 +58,7 @@ The escalating frequency of summer wildfires in the western US, particularly in 
 │   └── resp_disease_male_copd.csv
 ├── reports/
 │   ├── Data 512 Project Part 2 - Extension Plan.pdf
-│   ├── Final Report.pdf
+│   ├── Final Report - Data 512.pdf
 │   ├── Sagnik Ghosal_PechaKucha Presentation.pptx
 │   └── Visualization Descriptions and Reflection.pdf
 ├── src/
